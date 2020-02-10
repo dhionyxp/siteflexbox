@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site FlexBox</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menumobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }else{
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+               <a href=""> <img src="./Assets/images/logo.png" /> </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menumobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="" >HOME</a></li>
+                        <li><a href="" >HOME</a></li>
+                        <li><a href="" >HOME</a></li>
+                        <li><a href="" >HOME</a></li>
+                        <li><a href="" >HOME</a></li>
+                        <li><a href="" >HOME</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_header">
+                <h1>Top Notch Experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_titulo">
+                        Emergency Case
+                    </div>
+                    <div class="banner_descricao">
+                        Algum texto qualquer
+                    </div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_titulo">
+                        Doctors Timetable
+                    </div>
+                    <div class="banner_descricao">
+                        Algum texto qualquer
+                    </div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_titulo">
+                        Opening Hours
+                        <div class="abertura">
+                            <div class="dia">
+                                Monday - Friday
+                            </div>
+                            <div class="hora">
+                                8.00 - 17.00
+                            </div>
+                        </div>
+                        <div class="abertura">
+                            <div class="dia">
+                                Saturday
+                            </div>
+                            <div class="hora">
+                                9.30 - 17.30
+                            </div>
+                        </div>
+                        <div class="abertura">
+                            <div class="dia">
+                                Sunday
+                            </div>
+                            <div class="hora">
+                                9.30 - 15.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">
+                            Latest News
+                        </div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body">
+                            <article>
+                                <a href="">
+                                    <div class="noticia_data">
+                                        <div class="data_postagem">12 DEC 12</div>
+                                        <div class="comentarios">2</div>
+                                    </div>
+                                    <div class="noticia_imagem">
+                                        <img src="./Assets/images/medico.jpg"/>
+                                    </div>
+                                    <div class="noticia_titulo">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="noticia_resumo">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sapien augue, 
+                                        ultricies id dignissim at, consectetur sed magna. Etiam suscipit nec nisi sed rhoncus. 
+                                        Aenean imperdiet nunc et felis auctor, et hendrerit nisi sagittis. Class aptent taciti sociosqu ad 
+                                        litora torquent per conubia nostra, per inceptos himenaeos. Etiam varius sagittis.
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="noticia_data">
+                                        <div class="data_postagem">12 DEC 12</div>
+                                        <div class="comentarios">2</div>
+                                    </div>
+                                    <div class="noticia_imagem">
+                                        <img src="./Assets/images/medico.jpg"/>
+                                    </div>
+                                    <div class="noticia_titulo">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="noticia_resumo">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sapien augue, 
+                                        ultricies id dignissim at, consectetur sed magna. Etiam suscipit nec nisi sed rhoncus. 
+                                        Aenean imperdiet nunc et felis auctor, et hendrerit nisi sagittis. Class aptent taciti sociosqu ad 
+                                        litora torquent per conubia nostra, per inceptos himenaeos. Etiam varius sagittis.
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="noticia_data">
+                                        <div class="data_postagem">12 DEC 12</div>
+                                        <div class="comentarios">2</div>
+                                    </div>
+                                    <div class="noticia_imagem">
+                                        <img src="./Assets/images/medico.jpg"/>
+                                    </div>
+                                    <div class="noticia_titulo">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="noticia_resumo">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sapien augue, 
+                                        ultricies id dignissim at, consectetur sed magna. Etiam suscipit nec nisi sed rhoncus. 
+                                        Aenean imperdiet nunc et felis auctor, et hendrerit nisi sagittis. Class aptent taciti sociosqu ad 
+                                        litora torquent per conubia nostra, per inceptos himenaeos. Etiam varius sagittis.
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="noticia_data">
+                                        <div class="data_postagem">12 DEC 12</div>
+                                        <div class="comentarios">2</div>
+                                    </div>
+                                    <div class="noticia_imagem">
+                                        <img src="./Assets/images/medico.jpg"/>
+                                    </div>
+                                    <div class="noticia_titulo">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="noticia_resumo">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sapien augue, 
+                                        ultricies id dignissim at, consectetur sed magna. Etiam suscipit nec nisi sed rhoncus. 
+                                        Aenean imperdiet nunc et felis auctor, et hendrerit nisi sagittis. Class aptent taciti sociosqu ad 
+                                        litora torquent per conubia nostra, per inceptos himenaeos. Etiam varius sagittis.
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">
+                            Departments
+                        </div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body">
+                            <div class="departamento"></div>
+                            <div class="departamento"></div>
+                            <div class="departamento"></div>
+                            <div class="departamento"></div>
+                            <div class="departamento"></div>
+                            <div class="departamento"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">
+                            Make An Appointment
+                        </div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body_contato">
+                            <div class="titulo">
+                                Esses são alguns dos meios para entrar em contato com a nossa empresa...
+                            </div>
+                            <div class="contato">
+                                <img src="./Assets/images/lixeira.png" border="0" width="25" height="25" />
+                                    By phone: <span style="font-weight: bold;">1-800-643-4300</span>
+                            </div>
+                            <div class="contato">
+                                <img src="./Assets/images/carta.png" border="0" width="25" height="25" />
+                                    By e-mail: <span style="text-decoration: underline; color: blue;">medicenter@mail.com</span>
+                            </div>
+                            <div class="contato">
+                                <img src="./Assets/images/papel.png" border="0" width="25" height="25" />
+                                    or <span style="text-decoration: underline; color: blue;">fill in the from</span> on our contact page
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container flexColuna">
+            <div class="footer_menu">
+                <div class="fm1">
+                    <a href="">
+                        <div class="fm_titulo">
+                            Healt Insurance
+                        </div>
+                        <div class="fm_descricao">
+                            Here in medicenter we have individual...
+                        </div>
+                    </a>
+                </div>
+                <div class="fm2">
+                    <a href="">
+                        <div class="fm_titulo">
+                            Medical Records
+                        </div>
+                        <div class="fm_descricao">
+                            Here in medicenter we have individual...
+                        </div>
+                    </a>
+                </div>
+                <div class="fm3">
+                    <a href="">
+                        <div class="fm_titulo">
+                            Online Builds
+                        </div>
+                        <div class="fm_descricao">
+                            Here in medicenter we have individual...
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">
+                                Medicenter Clinic
+                            </div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body_footer">
+                                <div class="body_titulo">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis.
+                                </div>
+                                <div class="body_enderecos">
+                                    <div class="enderecos">
+                                        Medicenter Clinic<br>
+                                        33 Fariane Street<br>
+                                        Keilor East<br>
+                                        VIC 3033, Australia
+                                    </div>
+                                    <div class="telefones">
+                                        +123 655 655<br>
+                                        +123 755 755<br>
+                                        <span style="color: #fff;">medicenter@mail.com</span> 
+                                    </div>
+                                </div>
+                                <div class="links">
+                                    <img src="" width="25" height="25" />
+                                    <img src="" width="25" height="25" />
+                                    <img src="" width="25" height="25" />
+                                    <img src="" width="25" height="25" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">
+                                Latest Posts
+                            </div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body_footer">
+                                <div class="postagem">
+                                    <div class="textopostagem">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis.
+                                    </div>
+                                    <div class="anopostagem">
+                                        6 Anos Atrás
+                                    </div>
+                                </div>
+                                <div class="postagem">
+                                    <div class="textopostagem">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis.
+                                    </div>
+                                    <div class="anopostagem">
+                                        6 Anos Atrás
+                                    </div>
+                                </div>
+                                <div class="postagem">
+                                    <div class="textopostagem">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis.
+                                    </div>
+                                    <div class="anopostagem">
+                                        6 Anos Atrás
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">
+                                Latest Tweets
+                            </div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body_footer">
+                                <div class="postagem">
+                                    <div class="textotweet">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis.
+                                    </div>
+                                    <div class="anopostagem">
+                                        6 Anos Atrás
+                                    </div>
+                                </div>
+                                <div class="postagem">
+                                    <div class="textotweet">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis.
+                                    </div>
+                                    <div class="anopostagem">
+                                        6 Anos Atrás
+                                    </div>
+                                </div>
+                                <div class="postagem">
+                                    <div class="textotweet">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis.
+                                    </div>
+                                    <div class="anopostagem">
+                                        6 Anos Atrás
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                Copyright - Todos os Direitos Reservados
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
